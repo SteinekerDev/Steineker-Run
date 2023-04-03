@@ -46,7 +46,7 @@ class Dino(pygame.sprite.Sprite):
         self.image = self.running_sprites[self.current_image]
         self.rect = self.image.get_rect(center=(self.x_pos, self.y_pos))
         self.velocity = 50
-        self.gravity = 4
+        self.gravity = 4.5
         self.ducking = False
 
     def jump(self):
